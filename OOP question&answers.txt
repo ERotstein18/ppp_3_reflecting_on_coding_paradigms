@@ -1,0 +1,18 @@
+1. How does this solution demonstrate the four pillars of OOP? (It may not demonstrate all of them, describe only those that apply)
+a.Encapsulation - demonstrated through the use of classes to bundle related data and fucntions together
+//Podracer class encapsulates the propertis and behaviors of a podracer.
+//_init_ initializes the properties of the object
+//repair - modifies the state of the object
+b. Inheritance - demonstrated through the creation of the 'AnakinsPod' and 'SebulbasPod' classes, which inherit from the Podracer class.
+//AnakinsPod > boost (modifies the state of the object by multiplying the speed property)
+//SebulbasPod > flame_jet (modifies the state of another podracer object by adding a condition to property)
+Abstraction & Polymorphism - are not demonstrated in the code.
+
+2. Would it have been easier to implement a solution to this problem using a different coding style? 
+Why or why not?
+    OOP provides several advantages on this problem. It allows us to create objects that represent real-world concepts, making our program more understandable,
+and it allows for more flexibility, such as allowing multiple implementations of an interface/protocol. 
+
+3. How in particular did Object Oriented Programming assist in the solving of this problem?
+    OOP allows us to create classes that encapsulates the porperties and behaviors, making it easier to understand and maintain the code.
+It also promotes encapsulation,
